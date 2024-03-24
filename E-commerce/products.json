@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "name": "SPORTS WEAR",
+        "price": 100,
+        "image": "https://www.ragecustom.com/wp-content/uploads/2014/12/Midlayer-Mens-Soccer-Top1.png"
+    },
+    {
+        "id": 2,
+        "name": "WHEAT FLOUR",
+        "price": 20,
+        "image": "https://pnggallery.com/wp-content/uploads/wheat-flour-05.png"
+    },
+    {
+        "id": 3,
+        "name": "GAMING HEADPHONE",
+        "price": 150,
+        "image": "http://pngimg.com/uploads/headphones/headphones_PNG7659.png"
+    },
+    {
+        "id": 4,
+        "name": "FIRST-AID BOX(M)",
+        "price": 120,
+        "image": "https://hirakraja.com/67-large_default/first-aid-box.jpg"
+    },
+    {
+        "id": 5,
+        "name": "MISS MARVEL TOY",
+        "price": 50,
+        "image": "https://www.pngplay.com/wp-content/uploads/12/Ms.-Marvel-PNG-Pic-Background.png"
+    },
+    {
+        "id": 6,
+        "name": "PARTY CLOTHS",
+        "price": 110,
+        "image": "http://www.freepngclipart.com/download/sunglasses/43239-model-clothing-childrens-children-download-hq-png.png"
+    },
+    {
+        "id": 7,
+        "name": "MENS WHITE SHIRT",
+        "price": 200,
+        "image": "https://pngimg.com/uploads/dress_shirt/dress_shirt_PNG8070.png"
+    },{
+        "id": 8,
+        "name": "WOMEN'S BANGLES",
+        "price": 80,
+        "image": "https://i.pinimg.com/originals/98/83/f5/9883f5eb81611b8020a7f3a25a66bc31.png"
+    },
+    {
+        "id": 9,
+        "name": "NECKLACE",
+        "price": 100,
+        "image": "https://pngimg.com/d/necklace_PNG45.png"
+    }
+]

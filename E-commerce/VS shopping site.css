@@ -1,0 +1,345 @@
+.top-header{
+    background-color: dodgerblue;
+    padding: 15px 8px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:inherit;
+    border-bottom: 5px solid white;
+    display: flex;
+    font-size: 200%;
+}
+.name{
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 12px;
+}
+.contacticon{
+    padding-left: 1100px;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.signup{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 11px;
+}
+.searchbar{
+    background-color: rgb(200, 199, 199);
+    display: flex;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: 5px solid white;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: 4px black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.searchbox{
+    padding-left: 180px;
+    padding-top: 15px;
+}
+.bar{
+    width: 300px;
+    height: 25Px;
+    border-radius: 5%;
+}
+.yourorder{
+    padding-left: 500px;
+    font-size: 20px;
+    padding-top: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.wishlist{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 30px;
+}
+.cart{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 20px;
+}
+.prebut{
+    height: 30px;
+    width: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:  rgb(200, 199, 199);
+}
+.prebut:hover{
+    background-color: rgb(241, 241, 33);
+    transition: 50ms;
+}
+.menu{
+    height: 45px;
+    width: 30px;
+}
+.buttons2{
+    justify-content:space-between;
+    width: 100px;
+    display: flex;
+}
+.category{
+    background-color: rgb(200, 199, 199);
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+.sportimg{
+    background-color: transparent;
+    border-radius: 10%;
+}
+.sporttxt{
+    padding-left: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sportimg:hover{
+    background-color: dodgerblue;
+    transition: 100ms;
+}
+.groceryimg{
+    background-color: transparent;
+    border-radius: 10%;
+}
+.grocerytxt{
+    padding-left: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.groceryimg:hover{
+    background-color: dodgerblue;
+    transition: 100ms;
+}
+.kidswearimg{
+    background-color: transparent;
+    border-radius: 10%;
+}
+.kidsweartxt{
+    padding-left: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.kidswearimg:hover{
+    background-color: dodgerblue;
+    transition: 100ms;
+}
+.menswearimg{
+    background-color: transparent;
+    border-radius: 10%;
+}
+.mensweartxt{
+    padding-left: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menswearimg:hover{
+    background-color: dodgerblue;
+    transition: 100ms;
+}
+.womenswearimg{
+    background-color: transparent;
+    border-radius: 10%;
+}
+.womensweartxt{
+    padding-left: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.womenswearimg:hover{
+    background-color: dodgerblue;
+    transition: 100ms;
+}
+.gadgetimg{
+    background-color: transparent;
+    border-radius: 10%;
+}
+.gadgettxt{
+    padding-left: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.gadgetimg:hover{
+    background-color: dodgerblue;
+    transition: 100ms;
+}
+.medicineimg{
+    background-color: transparent;
+    border-radius: 10%;
+}
+.medicinetxt{
+    padding-left: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.medicineimg:hover{
+    background-color: dodgerblue;
+    transition: 100ms;
+}
+.toyimg{
+    background-color: transparent;
+    border-radius: 10%;
+}
+.toytxt{
+    padding-left: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.toyimg:hover{
+    background-color: dodgerblue;
+    transition: 100ms;
+}
+.container{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+} 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+} 
+header .cart-icon{
+    position: relative;
+}
+header .cart-icon span{
+    width: 20px;
+    display: flex;
+    height: 20px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -7px;
+}
+.listproducts .item img{
+    width: 90%;
+    filter: drop-shadow(o 50px 20px #0009);
+}
+.listproducts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.listproducts .item{
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+}
+.listproducts .item h2{
+    font-weight: 500;
+    font-size: large;
+}  
+.listproducts .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}  
+.listproducts .item button{
+    background-color: #353432;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.carttab{
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}
+body.showcart .carttab{
+    inset: 0 0 0 auto;
+}
+body.showcart .container{
+    transform: translateX(-250px);
+    transition: 0.5s;
+}
+.carttab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.carttab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);                
+}
+.carttab .btn button{
+    background-color: dodgerblue;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    cursor: pointer;  
+}
+.carttab .btn .close{
+    background-color: #eee;
+}
+.carttab .listcart .item img{
+    width: 100%;
+}
+.carttab .listcart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 70px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.listcart .quantity span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.listcart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+}
+.listcart .item:nth-child(even){
+    background-color: #eee1;
+}
+.listcart{
+    overflow: auto;
+}
+.listcart ::-webkit-scrollbar{
+    width: 0;
+}
+.cart-icon{
+    width: 30px;
+}
+.item{
+    text-align: center;
+}
+@media screen and (max-width: 992px) {
+    .listproducts{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {
+    .listproducts{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
